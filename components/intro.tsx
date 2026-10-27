@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://firebasestorage.googleapis.com/v0/b/adept-strand-389210.appspot.com/o/5442858775884184490_121.jpg?alt=media&token=d0b3c591-2b4c-4358-bde0-18a342f9f278"
+              src={'/mini-profile.jpg'}
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -64,8 +64,8 @@ export default function Intro() {
       >
         <span className="font-bold">{`Hello, I'm Halimjon.`}</span> {`I'm a`}{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">3 years</span> of self study experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="font-bold">3 years</span> of self study experience. I
+        enjoy building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js) also Node.js</span>.
       </motion.h1>
 
